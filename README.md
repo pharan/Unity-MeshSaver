@@ -1,6 +1,7 @@
 # Unity-MeshSaver
 Save your Mesh as an asset file.
-This script allows you to right-click on the MeshFilter component, and save its Mesh object as a .asset file you can reuse in your project.
+
+This UnityEditor script allows you to right-click on the MeshFilter component, and save its Mesh object as a .asset file you can reuse in your project.
 
 This is great for saving/"baking" procedurally generated meshes that may be too resource-intensive to generate at runtime.
 
