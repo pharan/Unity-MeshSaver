@@ -28,8 +28,8 @@ public static class MeshSaverEditor {
 
 		Mesh meshToSave = (makeNewInstance) ? Object.Instantiate(mesh) as Mesh : mesh;
 		
-        if (optimizeMesh)
-            meshToSave.Optimize();
+		if (optimizeMesh)
+		     MeshUtility.Optimize(meshToSave);
         
 		AssetDatabase.CreateAsset(meshToSave, path);
 		AssetDatabase.SaveAssets();
